@@ -1,0 +1,9 @@
+# Team / enterprise overrides for _bmad/config.toml.
+# Committed to the repo — applies to every developer on the project.
+
+[modules.tea]
+tea_use_playwright_utils = true
+tea_use_pactjs_utils = false
+tea_pact_mcp = "none"
+tea_browser_automation = "auto"
+test_stack_type = "fullstack"
